@@ -1,4 +1,4 @@
-/*
+
 Create table project_team_hardware(
 	hardware varchar(50),
 	start_time date,
@@ -33,8 +33,8 @@ Create table project_team_marketing(
 	customer_name varchar(50),
 	company_name varchar(50),
 	constraint pk_marketing PRIMARY KEY(marketing));
-*/
-/*
+
+
 create table index_(
 	index_ int not null,
 	hardware varchar(50) not null,
@@ -42,15 +42,14 @@ create table index_(
 	circuit varchar(50) not null,
 	marketing varchar(50)not null,
 );
-*/
 
-/*
+
+
 alter table index_ add primary key (index_,hardware,software,circuit,marketing);
 
 ALTER TABLE index_ ADD CONSTRAINT hardware FOREIGN KEY (hardware) 
 REFERENCES project_team_hardware (hardware)
-*/
-/*
+
 alter table index_ add constraint hardware foreign key (hardware)
 references project_team_hardware (hardware);
 
@@ -62,8 +61,7 @@ references project_team_circuit (circuit);
 
 alter table index_ add constraint marketing foreign key (marketing)
 references project_team_marketing (marketing);
-*/
-/*
+
 create table error_level(
 	error_code int,
 	error_name varchar(50) not null,
@@ -72,15 +70,14 @@ create table error_level(
 	circuit varchar(50),
 	marketing varchar(50)
 	constraint pk_error_code PRIMARY KEY(error_code));
-	*/
-	/*
+
 create table error_check(
 	error_code int,
 	check_date date,
 	version_ varchar(50),
 	symptoms text,
 	constraint error_code primary key(error_code));
-	*/
+
 create table solution(
 	error_code int,
 	team varchar(50),

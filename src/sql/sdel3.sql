@@ -1,4 +1,4 @@
-/*insert into person(person_ID,person_PW,person_email,person_group)
+insert into person(person_ID,person_PW,person_email,person_group)
 values ('kwonbosung1','abcd','bks@gmail.com','hardware');
 
 
@@ -26,17 +26,17 @@ values ('kimminju','abcd','bks@gmail.com','circuit');
 
 
 insert into customer(customer_name,phone_number,customer_require)
-values('izone','010-9230-9457','±Çº¸¼º ¿Ô´Ù°¨');
+values('izone','010-9230-9457','ï¿½Çºï¿½ï¿½ï¿½ ï¿½Ô´Ù°ï¿½');
 
 
 insert into customer(customer_name,phone_number,customer_require)
-values('izone2','010-9231-9457','±Çº¸¼º2 ¿Ô´Ù°¨');
+values('izone2','010-9231-9457','ï¿½Çºï¿½ï¿½ï¿½2 ï¿½Ô´Ù°ï¿½');
 
 
 insert into customer(customer_name,phone_number,customer_require)
-values('izone3','010-9232-9457','±Çº¸¼º ¿Ô¾úÀ½');
+values('izone3','010-9232-9457','ï¿½Çºï¿½ï¿½ï¿½ ï¿½Ô¾ï¿½ï¿½ï¿½');
 
 
 insert into customer(customer_name,phone_number,customer_require)
-values('izone4','010-9234-9457','±Çº¸¼ºÀÌ ¿Ô´Ù°¨');
-*/
+values('izone4','010-9234-9457','ï¿½Çºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô´Ù°ï¿½');
+
